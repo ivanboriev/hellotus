@@ -1,0 +1,20 @@
+{
+  "name": "ivanboriev/hellotus",
+  "description": "Package for OTUS homework!",
+  "type": "library",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Otus\\": "src/Otus/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ivan Boriev",
+      "email": "ivanboriev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
